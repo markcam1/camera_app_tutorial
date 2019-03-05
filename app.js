@@ -1,4 +1,4 @@
-window.onload = function(){ 
+
     
     var constraints = {video: { facingMode: "user" }, audio: false };
     
@@ -29,6 +29,6 @@ window.onload = function(){
         cameraOutput.classList.add("taken");
     };
     window.addEventListener("load", cameraStart, false);
-};
+
 
 
